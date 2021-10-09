@@ -4,9 +4,6 @@ branches:
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
+  - - '@semantic-release/exec'
+    - prepareCmd: 'VERSION=${nextRelease.version} make generate'
   - "@semantic-release/github"
-  - "@semantic-release/exec":
-      "publishCmd": "VERSION=$(nextRelease.version} make generate"
-  - "@semantic-release/exec":
-      "prepareCmd" : "set-version ${nextRelease.version}"
-      "publishCmd" : "publish-package"
