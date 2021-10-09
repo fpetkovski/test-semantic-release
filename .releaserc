@@ -6,4 +6,6 @@ plugins:
   - "@semantic-release/release-notes-generator"
   - - '@semantic-release/exec'
     - prepareCmd: 'VERSION=${nextRelease.version} make generate'
+  - - '@semantic-release/git'
+    - assests: ['VERSION', 'CHANGELOG.md']
   - "@semantic-release/github"
