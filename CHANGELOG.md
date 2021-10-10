@@ -1,3 +1,15 @@
+## [1.7.1](https://github.com/fpetkovski/test-semantic-release/compare/v1.7.0...v1.7.1) (2021-10-09)
+
+
+### Bug Fixes
+
+* crae ([36535c2](https://github.com/fpetkovski/test-semantic-release/commit/36535c2dad054534b75bae028b166618494606b0))
+
+
+### Performance Improvements
+
+* huge change ([e4b9aa0](https://github.com/fpetkovski/test-semantic-release/commit/e4b9aa037a69c5075bb91425d60cb32b81632451))
+
 # [1.7.0](https://github.com/fpetkovski/test-semantic-release/compare/v1.6.0...v1.7.0) (2021-10-09)
 
 
