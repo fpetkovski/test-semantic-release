@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/fpetkovski/test-semantic-release/compare/v1.7.1...v1.8.0) (2021-10-10)
+
+
+### Features
+
+* feat1 ([5f3959a](https://github.com/fpetkovski/test-semantic-release/commit/5f3959a71959aca545f32158583d7967cb19ca4b))
+
 ## [1.7.1](https://github.com/fpetkovski/test-semantic-release/compare/v1.7.0...v1.7.1) (2021-10-09)
 
 
